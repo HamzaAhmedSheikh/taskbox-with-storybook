@@ -18,3 +18,9 @@ export function CounterWithValue() {
     <Counter initialValue={34} />  
   ) 
 }
+
+export function CounterWithValueAndColor() {
+  return (
+   <Counter initialValue={36} backgroundColor="blue" />  
+ ) 
+}

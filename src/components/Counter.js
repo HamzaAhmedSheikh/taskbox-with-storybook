@@ -3,7 +3,7 @@ import React from 'react';
 
  function Counter (props) {
    return(
-     <div>
+     <div style={{color: props.backgroundColor}}>
        Hello Counter  {props.initialValue}
      </div>       
    )
