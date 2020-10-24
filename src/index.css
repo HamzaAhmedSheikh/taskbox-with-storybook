@@ -386,13 +386,13 @@ input:-webkit-autofill {
   top: 50%;
   width: 1em;
 }
-@font-face {
+/* @font-face {
   font-family: "percolate";
   src: url("../node_modules/css-loader/dist/cjs.js");
   src: url("../node_modules/css-loader/dist/cjs.js") format("embedded-opentype"), url("../node_modules/css-loader/dist/cjs.js") format("woff"), url("../node_modules/css-loader/dist/cjs.js") format("truetype"), url("../node_modules/css-loader/dist/cjs.js") format("svg");
   font-weight: normal;
   font-style: normal;
-}
+} */
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: "percolate";  
