@@ -308,7 +308,7 @@ textarea[disabled] {
   opacity: .5;
 }
 input:-webkit-autofill {
-  box-shadow: 0 0 0 1000px white inset;
+  -webkit-box-shadow: 0 0 0 1000px white inset;
 }
 .checkbox {
   display: inline-block;
@@ -342,7 +342,7 @@ input:-webkit-autofill {
   color: #2cc5d2;
   margin-top: -1px;
   font-family: 'percolate';
-  /* speak: none; */
+  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -387,14 +387,16 @@ input:-webkit-autofill {
   width: 1em;
 }
 /* @font-face {
-  font-family: "percolate";  
-   src: '';  
+  font-family: "percolate";
+  src: url("/icon/percolate.eot?-5w3um4");
+  src: url("/icon/percolate.eot?#iefix5w3um4") format("embedded-opentype"), url("/icon/percolate.woff?5w3um4") format("woff"), url("/icon/percolate.ttf?5w3um4") format("truetype"), url("/icon/percolate.svg?5w3um4") format("svg");
   font-weight: normal;
   font-style: normal;
 } */
 [class^="icon-"],
-[class*=" icon-"] {  
-  /* speak: none; */
+[class*=" icon-"] {
+  font-family: "percolate";
+  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

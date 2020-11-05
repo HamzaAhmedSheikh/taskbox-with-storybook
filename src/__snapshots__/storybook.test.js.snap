@@ -680,7 +680,7 @@ exports[`Storyshots TaskList Empty 1`] = `
       className="wrapper-message"
     >
       <span
-        className="icon-check"
+        className="far fa-check"
       />
       <div
         className="title-message"
