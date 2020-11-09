@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { archiveTask, pinTask } from '../lib/taskbox-redux';
 import PropTypes from 'prop-types';
 import Task from './Task';
-
+import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 
  export function PureTaskList({ loading, tasks, onPinTask, onArchiveTask }) {
     const events = {
@@ -39,7 +39,8 @@ import Task from './Task';
         return (
             <div className="list-items">
              <div className="wrapper-message">
-               <span className="icon-check" />
+               {/* <span className="icon-check" /> */}
+               <CheckCircleIcon style={{ width: "50px", height: "70px" }} />
                <div className="title-message"> You have no tasks </div>
                <div className="subtitle-message"> Sit back and relax </div>
              </div>

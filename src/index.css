@@ -321,6 +321,12 @@ input:-webkit-autofill {
   font-size: 1em;
   visibility: hidden;
 }
+
+.checkbox input[type="checkbox"]:hover {
+  cursor: pointer;
+  color: #616161;
+}
+
 .checkbox input[type="checkbox"] + span:before {
   position: absolute;
   top: 50%;
@@ -335,14 +341,14 @@ input:-webkit-autofill {
   content: '';
   display: block;
 }
-.checkbox input[type="checkbox"]:checked + span:before {
-  font-size: 16px;
+.checkbox input[type="checkbox"]:hover + span:before {
+  /* font-size: 16px;
   line-height: 24px;
   box-shadow: none;
   color: #2cc5d2;
   margin-top: -1px;
   font-family: 'percolate';
-  speak: none;
+  speak: none; 
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -350,7 +356,9 @@ input:-webkit-autofill {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\e65e";
+  content: "\e65e"; */
+  cursor: pointer;
+  background-color: #530000;
 }
 .input-symbol {
   display: inline-block;
@@ -393,6 +401,12 @@ input:-webkit-autofill {
   font-weight: normal;
   font-style: normal;
 } */
+
+/* .check_circle {
+  width: "50px";
+  height: "70px";
+} */
+
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: "percolate";

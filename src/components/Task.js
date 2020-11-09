@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import StarBorderIcon from '@material-ui/icons/StarBorder';
+import DoneIcon from '@material-ui/icons/Done';
 
  export default function Task({ task: { id, title, state }, onArchiveTask, onPinTask }) {
     return (
@@ -12,7 +13,7 @@ import PropTypes from 'prop-types';
           disabled={true}
           name="checked"
         />   
-        <span className="checkbox-custom" onClick={() => onArchiveTask(id)} />
+        <span className="checkbox-custom" onClick={() => onArchiveTask(id)} />        
        </label>  
 
        <div className="title">
@@ -23,7 +24,8 @@ import PropTypes from 'prop-types';
         {state !== 'TASK_ARCHIVED' && (
           // eslint-disable-next-line jsx-a11y/anchor-is-valid
           <a onClick={() => onPinTask(id)}>
-            <span className={`icon-star`} />
+            {/* <span className={`icon-star`} /> */}
+            <StarBorderIcon />
           </a>
         )}
        </div>
