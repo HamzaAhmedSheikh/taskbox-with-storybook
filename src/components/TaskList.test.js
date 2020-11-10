@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '@testing-library/jest-dom/extend-expect';
 
-import { WithPinnedTasks } from './TaskList.stories';
+import { WithPinnedTasks } from './TaskList/TaskList.stories';
 
 it('renders pinned tasks at the start of the list', () => {
   const div = document.createElement('div');

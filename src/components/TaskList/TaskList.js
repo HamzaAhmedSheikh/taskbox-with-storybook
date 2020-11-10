@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { archiveTask, pinTask } from '../lib/taskbox-redux';
+import { archiveTask, pinTask } from '../../lib/taskbox-redux';
 import PropTypes from 'prop-types';
-import Task from './Task';
+import Task from '../Task/Task';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 
  export function PureTaskList({ loading, tasks, onPinTask, onArchiveTask }) {

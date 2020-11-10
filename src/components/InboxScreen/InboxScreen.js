@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import SentimentVeryDissatisfiedIcon from '@material-ui/icons/SentimentVeryDissatisfied';
 
-import TaskList from './TaskList';
+import TaskList from '../TaskList/TaskList';
 
  export function PureInboxScreen({ error }) {
     if (error) {
@@ -13,7 +13,7 @@ import TaskList from './TaskList';
           {/* <span className="icon-face-sad" /> */}
           <SentimentVeryDissatisfiedIcon style={{ width: "50px", height: "70px" }} />
           <div className="title-message">Oh no!</div>
-          <div className="subtitle-message">Something went wrong</div>
+          <div className="subtitle-message"> Something went wrong. </div>
          </div>
         </div>
       );
