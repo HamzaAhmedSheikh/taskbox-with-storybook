@@ -15,4 +15,3 @@ function App() {
 }
 
 export default App;
-// CHROMATIC_PROJECT_TOKEN=wltrsihjo4
