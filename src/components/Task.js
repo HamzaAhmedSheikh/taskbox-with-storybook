@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
-import DoneIcon from '@material-ui/icons/Done';
+import StarIcon from '@material-ui/icons/Star';
 
  export default function Task({ task: { id, title, state }, onArchiveTask, onPinTask }) {
     return (
@@ -25,7 +25,7 @@ import DoneIcon from '@material-ui/icons/Done';
           // eslint-disable-next-line jsx-a11y/anchor-is-valid
           <a onClick={() => onPinTask(id)}>
             {/* <span className={`icon-star`} /> */}
-            <StarBorderIcon />
+            <StarIcon />
           </a>
         )}
        </div>
