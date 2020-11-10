@@ -19,4 +19,4 @@ jobs:
           # our project token, to see how to obtain it
           # refer to https://www.learnstorybook.com/intro-to-storybook/react/en/deploy/
           projectToken: project-token
-          token: --project-token-wltrsihjo4
+          token: project-token-wltrsihjo4
